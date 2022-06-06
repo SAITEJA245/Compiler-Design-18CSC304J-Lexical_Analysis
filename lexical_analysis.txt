@@ -1,0 +1,8 @@
+Lexical Analysis
+AIM: To write a program for lexical analyser which takes a C file as the input file and converts the content as tokens.
+ALGORITHM:
+1.    Read the C program file
+2.    Create lists of key, identifiers, format specifiers and io keywords
+3.    Read each line in the file, split the words in each line
+4.    If the word is in any of the above lists, append it to a separate list and repeat this step till the last line of the C program
+5.    Print the identifiers/tokens and their respective counts in the C program
